@@ -1,0 +1,351 @@
+  body {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: #dedcd2;
+  }
+  
+  .box {
+    width: 700px;
+    height: 590px;
+    z-index: 2;
+    
+   
+    background: #dedcd2;
+  }
+  .box .pixel {
+    width: 10px;
+    height: 10px;
+    background: #dedcd2;
+    float: left;
+    font-size: 6px;
+    text-align: center;
+    line-height: 10px;
+    
+  }
+  
+
+
+  .box .pixel:nth-of-type(14)
+  ,.box .pixel:nth-of-type(83)
+  ,.box .pixel:nth-of-type(151),.box .pixel:nth-of-type(152),.box .pixel:nth-of-type(153),.box .pixel:nth-of-type(154),.box .pixel:nth-of-type(155),.box .pixel:nth-of-type(156),.box .pixel:nth-of-type(157)
+  ,.box .pixel:nth-of-type(219),.box .pixel:nth-of-type(220),.box .pixel:nth-of-type(223),.box .pixel:nth-of-type(224),.box .pixel:nth-of-type(225),.box .pixel:nth-of-type(226),.box .pixel:nth-of-type(227),.box .pixel:nth-of-type(228)
+  ,.box .pixel:nth-of-type(288),.box .pixel:nth-of-type(292),.box .pixel:nth-of-type(297),.box .pixel:nth-of-type(298)
+  ,.box .pixel:nth-of-type(357),.box .pixel:nth-of-type(293),.box .pixel:nth-of-type(361),.box .pixel:nth-of-type(369)
+  ,.box .pixel:nth-of-type(427),.box .pixel:nth-of-type(439),.box .pixel:nth-of-type(440),.box .pixel:nth-of-type(441),.box .pixel:nth-of-type(442)
+  ,.box .pixel:nth-of-type(496),.box .pixel:nth-of-type(504),.box .pixel:nth-of-type(505),.box .pixel:nth-of-type(506),.box .pixel:nth-of-type(507),.box .pixel:nth-of-type(508),.box .pixel:nth-of-type(512),.box .pixel:nth-of-type(513),.box .pixel:nth-of-type(515)
+  ,.box .pixel:nth-of-type(566),.box .pixel:nth-of-type(573),.box .pixel:nth-of-type(574),.box .pixel:nth-of-type(575),.box .pixel:nth-of-type(576),.box .pixel:nth-of-type(577),.box .pixel:nth-of-type(578),.box .pixel:nth-of-type(579),.box .pixel:nth-of-type(580),.box .pixel:nth-of-type(581),.box .pixel:nth-of-type(582),.box .pixel:nth-of-type(583)
+  ,.box .pixel:nth-of-type(636),.box .pixel:nth-of-type(642),.box .pixel:nth-of-type(643),.box .pixel:nth-of-type(644)
+  ,.box .pixel:nth-of-type(649),.box .pixel:nth-of-type(650),.box .pixel:nth-of-type(651),.box .pixel:nth-of-type(652),.box .pixel:nth-of-type(653),.box .pixel:nth-of-type(654)
+  ,.box .pixel:nth-of-type(706),.box .pixel:nth-of-type(711),.box .pixel:nth-of-type(712),.box .pixel:nth-of-type(713)
+  ,.box .pixel:nth-of-type(719),.box .pixel:nth-of-type(720),.box .pixel:nth-of-type(721),.box .pixel:nth-of-type(722),.box .pixel:nth-of-type(723)
+  ,.box .pixel:nth-of-type(776),.box .pixel:nth-of-type(780),.box .pixel:nth-of-type(781),.box .pixel:nth-of-type(789),.box .pixel:nth-of-type(790),.box .pixel:nth-of-type(791)
+  ,.box .pixel:nth-of-type(846),.box .pixel:nth-of-type(849),.box .pixel:nth-of-type(850),.box .pixel:nth-of-type(858),.box .pixel:nth-of-type(859),.box .pixel:nth-of-type(882),.box .pixel:nth-of-type(883),.box .pixel:nth-of-type(884)
+  ,.box .pixel:nth-of-type(917),.box .pixel:nth-of-type(919),.box .pixel:nth-of-type(928),.box .pixel:nth-of-type(929),.box .pixel:nth-of-type(951),.box .pixel:nth-of-type(955)
+  ,.box .pixel:nth-of-type(987),.box .pixel:nth-of-type(989),.box .pixel:nth-of-type(998),.box .pixel:nth-of-type(1020),.box .pixel:nth-of-type(1026),.box .pixel:nth-of-type(1027)
+  ,.box .pixel:nth-of-type(1058),.box .pixel:nth-of-type(1059),.box .pixel:nth-of-type(1068),.box .pixel:nth-of-type(1087),.box .pixel:nth-of-type(1088),.box .pixel:nth-of-type(1089),.box .pixel:nth-of-type(1098)
+  ,.box .pixel:nth-of-type(1138),.box .pixel:nth-of-type(1139),.box .pixel:nth-of-type(1156),.box .pixel:nth-of-type(1168)
+  ,.box .pixel:nth-of-type(1209),.box .pixel:nth-of-type(1208),.box .pixel:nth-of-type(1210),.box .pixel:nth-of-type(1211),.box .pixel:nth-of-type(1226)
+  ,.box .pixel:nth-of-type(1232),.box .pixel:nth-of-type(1233),.box .pixel:nth-of-type(1234) ,.box .pixel:nth-of-type(1238)
+  ,.box .pixel:nth-of-type(1279),.box .pixel:nth-of-type(1280),.box .pixel:nth-of-type(1297),.box .pixel:nth-of-type(1302),.box .pixel:nth-of-type(1303),.box .pixel:nth-of-type(1304),.box .pixel:nth-of-type(1305),.box .pixel:nth-of-type(1307),.box .pixel:nth-of-type(1308),.box .pixel:nth-of-type(1309)
+  ,.box .pixel:nth-of-type(1349),.box .pixel:nth-of-type(1350),.box .pixel:nth-of-type(1352)  ,.box .pixel:nth-of-type(1367),.box .pixel:nth-of-type(1371),.box .pixel:nth-of-type(1373),.box .pixel:nth-of-type(1374),.box .pixel:nth-of-type(1375),.box .pixel:nth-of-type(1377),.box .pixel:nth-of-type(1378),.box .pixel:nth-of-type(1379)
+  ,.box .pixel:nth-of-type(1421),.box .pixel:nth-of-type(1425),.box .pixel:nth-of-type(1436),.box .pixel:nth-of-type(1442),.box .pixel:nth-of-type(1443),.box .pixel:nth-of-type(1444),.box .pixel:nth-of-type(1445),.box .pixel:nth-of-type(1446),.box .pixel:nth-of-type(1447),.box .pixel:nth-of-type(1448),.box .pixel:nth-of-type(1449),.box .pixel:nth-of-type(1450)
+  ,.box .pixel:nth-of-type(1491),.box .pixel:nth-of-type(1494),.box .pixel:nth-of-type(1496),.box .pixel:nth-of-type(1498),.box .pixel:nth-of-type(1505),.box .pixel:nth-of-type(1511),.box .pixel:nth-of-type(1512),.box .pixel:nth-of-type(1513),.box .pixel:nth-of-type(1514),.box .pixel:nth-of-type(1515),.box .pixel:nth-of-type(1516),.box .pixel:nth-of-type(1517),.box .pixel:nth-of-type(1518),.box .pixel:nth-of-type(1519),.box .pixel:nth-of-type(1520),.box .pixel:nth-of-type(1521)
+  ,.box .pixel:nth-of-type(1560),.box .pixel:nth-of-type(1566),.box .pixel:nth-of-type(1567),.box .pixel:nth-of-type(1568),.box .pixel:nth-of-type(1573),.box .pixel:nth-of-type(1575),.box .pixel:nth-of-type(1579),.box .pixel:nth-of-type(1580),.box .pixel:nth-of-type(1581),.box .pixel:nth-of-type(1582),.box .pixel:nth-of-type(1583),.box .pixel:nth-of-type(1584),.box .pixel:nth-of-type(1585),.box .pixel:nth-of-type(1586),.box .pixel:nth-of-type(1587),.box .pixel:nth-of-type(1588),.box .pixel:nth-of-type(1589)
+  ,.box .pixel:nth-of-type(1630),.box .pixel:nth-of-type(1631),.box .pixel:nth-of-type(1633),.box .pixel:nth-of-type(1635),.box .pixel:nth-of-type(1636),.box .pixel:nth-of-type(1637),.box .pixel:nth-of-type(1640),.box .pixel:nth-of-type(1642),.box .pixel:nth-of-type(1645),.box .pixel:nth-of-type(1648),.box .pixel:nth-of-type(1649),.box .pixel:nth-of-type(1650),.box .pixel:nth-of-type(1651),.box .pixel:nth-of-type(1652),.box .pixel:nth-of-type(1653),.box .pixel:nth-of-type(1654),.box .pixel:nth-of-type(1655),.box .pixel:nth-of-type(1656),.box .pixel:nth-of-type(1657),.box .pixel:nth-of-type(1658)
+  ,.box .pixel:nth-of-type(1701),.box .pixel:nth-of-type(1702),.box .pixel:nth-of-type(1703),.box .pixel:nth-of-type(1704),.box .pixel:nth-of-type(1705),.box .pixel:nth-of-type(1706),.box .pixel:nth-of-type(1707),.box .pixel:nth-of-type(1708),.box .pixel:nth-of-type(1709),.box .pixel:nth-of-type(1710),.box .pixel:nth-of-type(1711),.box .pixel:nth-of-type(1712),.box .pixel:nth-of-type(1714),.box .pixel:nth-of-type(1715),.box .pixel:nth-of-type(1717),.box .pixel:nth-of-type(1718),.box .pixel:nth-of-type(1719),.box .pixel:nth-of-type(1720),.box .pixel:nth-of-type(1721),.box .pixel:nth-of-type(1722),.box .pixel:nth-of-type(1723),.box .pixel:nth-of-type(1724),.box .pixel:nth-of-type(1725),.box .pixel:nth-of-type(1726),.box .pixel:nth-of-type(1727),.box .pixel:nth-of-type(1728),.box .pixel:nth-of-type(1729)
+  ,.box .pixel:nth-of-type(1771),.box .pixel:nth-of-type(1772),.box .pixel:nth-of-type(1773),.box .pixel:nth-of-type(1774),.box .pixel:nth-of-type(1775),.box .pixel:nth-of-type(1782),.box .pixel:nth-of-type(1783),.box .pixel:nth-of-type(1784),.box .pixel:nth-of-type(1787),.box .pixel:nth-of-type(1788),.box .pixel:nth-of-type(1789),.box .pixel:nth-of-type(1790),.box .pixel:nth-of-type(1791),.box .pixel:nth-of-type(1792),.box .pixel:nth-of-type(1793),.box .pixel:nth-of-type(1794),.box .pixel:nth-of-type(1795),.box .pixel:nth-of-type(1796),.box .pixel:nth-of-type(1797),.box .pixel:nth-of-type(1798),.box .pixel:nth-of-type(1799)
+  ,.box .pixel:nth-of-type(1843),.box .pixel:nth-of-type(1853),.box .pixel:nth-of-type(1854),.box .pixel:nth-of-type(1855),.box .pixel:nth-of-type(1856),.box .pixel:nth-of-type(1857),.box .pixel:nth-of-type(1858),.box .pixel:nth-of-type(1859)
+  ,.box .pixel:nth-of-type(1862),.box .pixel:nth-of-type(1863),.box .pixel:nth-of-type(1864),.box .pixel:nth-of-type(1865),.box .pixel:nth-of-type(1866),.box .pixel:nth-of-type(1867),.box .pixel:nth-of-type(1868)
+  ,.box .pixel:nth-of-type(1924),.box .pixel:nth-of-type(1925),.box .pixel:nth-of-type(1926),.box .pixel:nth-of-type(1927),.box .pixel:nth-of-type(1928),.box .pixel:nth-of-type(1929)
+  
+  ,.box .pixel:nth-of-type(1936),.box .pixel:nth-of-type(1937),.box .pixel:nth-of-type(1938),.box .pixel:nth-of-type(1995)
+  ,.box .pixel:nth-of-type(2074),.box .pixel:nth-of-type(2075),.box .pixel:nth-of-type(2077)
+  ,.box .pixel:nth-of-type(2139) ,.box .pixel:nth-of-type(2140) ,.box .pixel:nth-of-type(2141),.box .pixel:nth-of-type(2206),.box .pixel:nth-of-type(2207),.box .pixel:nth-of-type(2208),.box .pixel:nth-of-type(2210)
+  ,.box .pixel:nth-of-type(2276)
+  ,.box .pixel:nth-of-type(2346),.box .pixel:nth-of-type(2349)
+  ,.box .pixel:nth-of-type(2415),.box .pixel:nth-of-type(2416),.box .pixel:nth-of-type(2417),.box .pixel:nth-of-type(2419),.box .pixel:nth-of-type(2420)
+  ,.box .pixel:nth-of-type(2486)
+  ,.box .pixel:nth-of-type(2487)
+  ,.box .pixel:nth-of-type(2488)
+  ,.box .pixel:nth-of-type(2489)
+  ,.box .pixel:nth-of-type(2543),.box .pixel:nth-of-type(2542)
+  ,.box .pixel:nth-of-type(2555)
+ ,.box .pixel:nth-of-type(2556)
+ ,.box .pixel:nth-of-type(2557)
+ ,.box .pixel:nth-of-type(2558)
+ ,.box .pixel:nth-of-type(2611),.box .pixel:nth-of-type(2613),.box .pixel:nth-of-type(2614),.box .pixel:nth-of-type(2615),.box .pixel:nth-of-type(2616)
+ ,.box .pixel:nth-of-type(2627),.box .pixel:nth-of-type(2628),.box .pixel:nth-of-type(2631),.box .pixel:nth-of-type(2680),.box .pixel:nth-of-type(2685)
+ ,.box .pixel:nth-of-type(2697),.box .pixel:nth-of-type(2700)
+ ,.box .pixel:nth-of-type(2750),.box .pixel:nth-of-type(2751),.box .pixel:nth-of-type(2754),.box .pixel:nth-of-type(2757)
+ ,.box .pixel:nth-of-type(2766)
+ ,.box .pixel:nth-of-type(2767)
+,.box .pixel:nth-of-type(2768)
+,.box .pixel:nth-of-type(2769)
+,.box .pixel:nth-of-type(2770)
+,.box .pixel:nth-of-type(2820)
+,.box .pixel:nth-of-type(2821)
+,.box .pixel:nth-of-type(2822)
+,.box .pixel:nth-of-type(2823) ,.box .pixel:nth-of-type(2837) ,.box .pixel:nth-of-type(2838)
+,.box .pixel:nth-of-type(2891),.box .pixel:nth-of-type(2892),.box .pixel:nth-of-type(2893)
+,.box .pixel:nth-of-type(2962),.box .pixel:nth-of-type(2963)
+  {
+    background-color: rgb(227,91,35);
+  }
+
+
+  .box .pixel:nth-of-type(221),.box .pixel:nth-of-type(222),.box .pixel:nth-of-type(289),.box .pixel:nth-of-type(291)
+  ,.box .pixel:nth-of-type(358),.box .pixel:nth-of-type(294),.box .pixel:nth-of-type(295),.box .pixel:nth-of-type(296),.box .pixel:nth-of-type(368)
+  ,.box .pixel:nth-of-type(362),.box .pixel:nth-of-type(436),.box .pixel:nth-of-type(437),.box .pixel:nth-of-type(438)
+  ,.box .pixel:nth-of-type(497),.box .pixel:nth-of-type(501),.box .pixel:nth-of-type(504),.box .pixel:nth-of-type(509),.box .pixel:nth-of-type(510),.box .pixel:nth-of-type(511),.box .pixel:nth-of-type(571),.box .pixel:nth-of-type(570)
+  ,.box .pixel:nth-of-type(640),.box .pixel:nth-of-type(709),.box .pixel:nth-of-type(710),.box .pixel:nth-of-type(779)
+  ,.box .pixel:nth-of-type(847),.box .pixel:nth-of-type(988),.box .pixel:nth-of-type(1163),.box .pixel:nth-of-type(1164)
+  ,.box .pixel:nth-of-type(1235),.box .pixel:nth-of-type(1237)
+  ,.box .pixel:nth-of-type(1301),.box .pixel:nth-of-type(1351),.box .pixel:nth-of-type(1370),.box .pixel:nth-of-type(1372),.box .pixel:nth-of-type(1376)
+  ,.box .pixel:nth-of-type(1419),.box .pixel:nth-of-type(1420),.box .pixel:nth-of-type(1510),.box .pixel:nth-of-type(1565),.box .pixel:nth-of-type(1569)
+  ,.box .pixel:nth-of-type(1634),.box .pixel:nth-of-type(1638),.box .pixel:nth-of-type(1639),.box .pixel:nth-of-type(1647),.box .pixel:nth-of-type(1716),.box .pixel:nth-of-type(1785),.box .pixel:nth-of-type(1786)
+  ,.box .pixel:nth-of-type(2209),.box .pixel:nth-of-type(2277),.box .pixel:nth-of-type(2279),.box .pixel:nth-of-type(2418),.box .pixel:nth-of-type(2629),.box .pixel:nth-of-type(2630)
+  ,.box .pixel:nth-of-type(2683),.box .pixel:nth-of-type(2684),.box .pixel:nth-of-type(2752),.box .pixel:nth-of-type(2753),.box .pixel:nth-of-type(2826)
+  ,.box .pixel:nth-of-type(2894),.box .pixel:nth-of-type(2895)
+  {
+    background-color: rgb(247,163,28);
+  }
+ 
+
+  
+  .box .pixel:nth-of-type(290)
+  ,.box .pixel:nth-of-type(359),.box .pixel:nth-of-type(360),.box .pixel:nth-of-type(363),.box .pixel:nth-of-type(364),.box .pixel:nth-of-type(365),.box .pixel:nth-of-type(366),.box .pixel:nth-of-type(367)
+  ,.box .pixel:nth-of-type(428),.box .pixel:nth-of-type(429),.box .pixel:nth-of-type(430),.box .pixel:nth-of-type(431),.box .pixel:nth-of-type(432),.box .pixel:nth-of-type(433),.box .pixel:nth-of-type(434),.box .pixel:nth-of-type(435)
+  ,.box .pixel:nth-of-type(498),.box .pixel:nth-of-type(499),.box .pixel:nth-of-type(500),.box .pixel:nth-of-type(502),.box .pixel:nth-of-type(503)
+  ,.box .pixel:nth-of-type(567),.box .pixel:nth-of-type(568),.box .pixel:nth-of-type(569),.box .pixel:nth-of-type(572)
+  ,.box .pixel:nth-of-type(637),.box .pixel:nth-of-type(638),.box .pixel:nth-of-type(639),.box .pixel:nth-of-type(641)
+  ,.box .pixel:nth-of-type(707),.box .pixel:nth-of-type(708)
+  ,.box .pixel:nth-of-type(777),.box .pixel:nth-of-type(778)
+  ,.box .pixel:nth-of-type(848),.box .pixel:nth-of-type(918),.box .pixel:nth-of-type(952),.box .pixel:nth-of-type(953),.box .pixel:nth-of-type(954)
+  ,.box .pixel:nth-of-type(1021),.box .pixel:nth-of-type(1022),.box .pixel:nth-of-type(1023),.box .pixel:nth-of-type(1024),.box .pixel:nth-of-type(1025)
+  ,.box .pixel:nth-of-type(1090),.box .pixel:nth-of-type(1091),.box .pixel:nth-of-type(1092),.box .pixel:nth-of-type(1093),.box .pixel:nth-of-type(1094),.box .pixel:nth-of-type(1095),.box .pixel:nth-of-type(1096),.box .pixel:nth-of-type(1097)
+  ,.box .pixel:nth-of-type(1157),.box .pixel:nth-of-type(1158),.box .pixel:nth-of-type(1159),.box .pixel:nth-of-type(1160),.box .pixel:nth-of-type(1161),.box .pixel:nth-of-type(1162)
+  ,.box .pixel:nth-of-type(1165),.box .pixel:nth-of-type(1166),.box .pixel:nth-of-type(1167)
+  ,.box .pixel:nth-of-type(1227),.box .pixel:nth-of-type(1228),.box .pixel:nth-of-type(1229),.box .pixel:nth-of-type(1230),.box .pixel:nth-of-type(1231)
+  ,.box .pixel:nth-of-type(1236),.box .pixel:nth-of-type(1298),.box .pixel:nth-of-type(1299),.box .pixel:nth-of-type(1300),.box .pixel:nth-of-type(1306)
+  ,.box .pixel:nth-of-type(1368),.box .pixel:nth-of-type(1369),.box .pixel:nth-of-type(1437),.box .pixel:nth-of-type(1438),.box .pixel:nth-of-type(1439),.box .pixel:nth-of-type(1440),.box .pixel:nth-of-type(1441)
+  ,.box .pixel:nth-of-type(1489),.box .pixel:nth-of-type(1490),.box .pixel:nth-of-type(1495),.box .pixel:nth-of-type(1506),.box .pixel:nth-of-type(1507),.box .pixel:nth-of-type(1508),.box .pixel:nth-of-type(1509)
+  ,.box .pixel:nth-of-type(1564),.box .pixel:nth-of-type(1576),.box .pixel:nth-of-type(1577),.box .pixel:nth-of-type(1578),.box .pixel:nth-of-type(1646)
+  ,.box .pixel:nth-of-type(2278),.box .pixel:nth-of-type(2347),.box .pixel:nth-of-type(2348)
+  ,.box .pixel:nth-of-type(2612),.box .pixel:nth-of-type(2681),.box .pixel:nth-of-type(2682)
+  ,.box .pixel:nth-of-type(2698),.box .pixel:nth-of-type(2699)
+  ,.box .pixel:nth-of-type(2824),.box .pixel:nth-of-type(2825)
+  {
+    background-color:rgb(254,223,81);
+  }
+
+  /*rojo fuego*/
+  .box .pixel:nth-of-type(378),.box .pixel:nth-of-type(448),.box .pixel:nth-of-type(447),.box .pixel:nth-of-type(517),.box .pixel:nth-of-type(516),.box .pixel:nth-of-type(514),.box .pixel:nth-of-type(585),.box .pixel:nth-of-type(584),.box .pixel:nth-of-type(586),.box .pixel:nth-of-type(587),.box .pixel:nth-of-type(655),.box .pixel:nth-of-type(656)
+  ,.box .pixel:nth-of-type(724) ,.box .pixel:nth-of-type(725),.box .pixel:nth-of-type(792),.box .pixel:nth-of-type(793),.box .pixel:nth-of-type(794)
+  ,.box .pixel:nth-of-type(1860),.box .pixel:nth-of-type(1861),.box .pixel:nth-of-type(1869),.box .pixel:nth-of-type(1873),.box .pixel:nth-of-type(1874)
+  ,.box .pixel:nth-of-type(1932),.box .pixel:nth-of-type(1933),.box .pixel:nth-of-type(1934),.box .pixel:nth-of-type(1935),.box .pixel:nth-of-type(1939),.box .pixel:nth-of-type(1940),.box .pixel:nth-of-type(1942),.box .pixel:nth-of-type(1943)
+  ,.box .pixel:nth-of-type(2004),.box .pixel:nth-of-type(2005),.box .pixel:nth-of-type(2006),.box .pixel:nth-of-type(2007),.box .pixel:nth-of-type(2008),.box .pixel:nth-of-type(2009),.box .pixel:nth-of-type(2010),.box .pixel:nth-of-type(2011),.box .pixel:nth-of-type(2012),.box .pixel:nth-of-type(2013)
+  ,.box .pixel:nth-of-type(2078),.box .pixel:nth-of-type(2079),.box .pixel:nth-of-type(2080),.box .pixel:nth-of-type(2081),.box .pixel:nth-of-type(2082)
+  ,.box .pixel:nth-of-type(2148) ,.box .pixel:nth-of-type(2149) ,.box .pixel:nth-of-type(2150) ,.box .pixel:nth-of-type(2151),.box .pixel:nth-of-type(2605),.box .pixel:nth-of-type(2675)
+  ,.box .pixel:nth-of-type(2617),.box .pixel:nth-of-type(2618),.box .pixel:nth-of-type(2686),.box .pixel:nth-of-type(2687),.box .pixel:nth-of-type(2688)
+  ,.box .pixel:nth-of-type(2755),.box .pixel:nth-of-type(2756),.box .pixel:nth-of-type(2758),.box .pixel:nth-of-type(2759)
+  ,.box .pixel:nth-of-type(2827)
+,.box .pixel:nth-of-type(2828)
+,.box .pixel:nth-of-type(2829)
+,.box .pixel:nth-of-type(2896)
+,.box .pixel:nth-of-type(2897)
+,.box .pixel:nth-of-type(2898)
+,.box .pixel:nth-of-type(2899)
+,.box .pixel:nth-of-type(2900)
+,.box .pixel:nth-of-type(2969)
+  {  background-color:rgb(244,53,58) ;
+  }
+
+
+  .box .pixel:nth-of-type(564),.box .pixel:nth-of-type(563),.box .pixel:nth-of-type(635),.box .pixel:nth-of-type(645)
+  ,.box .pixel:nth-of-type(714),.box .pixel:nth-of-type(717)
+  ,.box .pixel:nth-of-type(774),.box .pixel:nth-of-type(787),.box .pixel:nth-of-type(856),.box .pixel:nth-of-type(860),.box .pixel:nth-of-type(861)
+  ,.box .pixel:nth-of-type(915),.box .pixel:nth-of-type(926),.box .pixel:nth-of-type(985),.box .pixel:nth-of-type(996)
+  ,.box .pixel:nth-of-type(1403),.box .pixel:nth-of-type(1414)
+  ,.box .pixel:nth-of-type(1476),.box .pixel:nth-of-type(2532),.box .pixel:nth-of-type(2602),.box .pixel:nth-of-type(3044)
+  {
+    background-color:  #885336;
+  }
+
+ 
+
+    /*negro clarito*/
+    .box .pixel:nth-of-type(633),.box .pixel:nth-of-type(703),.box .pixel:nth-of-type(786)
+    ,.box .pixel:nth-of-type(844),.box .pixel:nth-of-type(914),.box .pixel:nth-of-type(855),.box .pixel:nth-of-type(857)
+    ,.box .pixel:nth-of-type(925),.box .pixel:nth-of-type(927),.box .pixel:nth-of-type(997)
+    ,.box .pixel:nth-of-type(1201),.box .pixel:nth-of-type(1202)    ,.box .pixel:nth-of-type(1061)    ,.box .pixel:nth-of-type(1125)
+    ,.box .pixel:nth-of-type(1194)    ,.box .pixel:nth-of-type(1270)    ,.box .pixel:nth-of-type(1473),.box .pixel:nth-of-type(1483),.box .pixel:nth-of-type(1544),.box .pixel:nth-of-type(1615),.box .pixel:nth-of-type(1551)
+    ,.box .pixel:nth-of-type(1621)    ,.box .pixel:nth-of-type(1691)    ,.box .pixel:nth-of-type(1761),.box .pixel:nth-of-type(1780),.box .pixel:nth-of-type(1781),.box .pixel:nth-of-type(1831),.box .pixel:nth-of-type(1901)
+    ,.box .pixel:nth-of-type(1971),.box .pixel:nth-of-type(2041),.box .pixel:nth-of-type(2111),.box .pixel:nth-of-type(2180),.box .pixel:nth-of-type(2745),.box .pixel:nth-of-type(2816)
+    ,.box .pixel:nth-of-type(2966),.box .pixel:nth-of-type(2970),.box .pixel:nth-of-type(3037),.box .pixel:nth-of-type(3040)    ,.box .pixel:nth-of-type(3097),.box .pixel:nth-of-type(3107),.box .pixel:nth-of-type(3110)
+    ,.box .pixel:nth-of-type(3177),.box .pixel:nth-of-type(3180)    ,.box .pixel:nth-of-type(3586)    ,.box .pixel:nth-of-type(3729)    ,.box .pixel:nth-of-type(3247) ,.box .pixel:nth-of-type(3317),.box .pixel:nth-of-type(3386),.box .pixel:nth-of-type(3390),.box .pixel:nth-of-type(3320),.box .pixel:nth-of-type(3250)
+    ,.box .pixel:nth-of-type(3603)
+    {
+    background-color:   rgb(116,54,50);
+  }
+
+
+  /*Piel*/
+  .box .pixel:nth-of-type(634),.box .pixel:nth-of-type(704),.box .pixel:nth-of-type(705)
+  ,.box .pixel:nth-of-type(715),.box .pixel:nth-of-type(716)
+  ,.box .pixel:nth-of-type(782),.box .pixel:nth-of-type(783),.box .pixel:nth-of-type(784),.box .pixel:nth-of-type(785)
+  ,.box .pixel:nth-of-type(851),.box .pixel:nth-of-type(852),.box .pixel:nth-of-type(853)
+  ,.box .pixel:nth-of-type(916),.box .pixel:nth-of-type(920),.box .pixel:nth-of-type(921),.box .pixel:nth-of-type(922),.box .pixel:nth-of-type(923)
+  ,.box .pixel:nth-of-type(986),.box .pixel:nth-of-type(990)
+  ,.box .pixel:nth-of-type(1056),.box .pixel:nth-of-type(1057)
+  ,.box .pixel:nth-of-type(1126),.box .pixel:nth-of-type(1127),.box .pixel:nth-of-type(1128),.box .pixel:nth-of-type(1129)
+  ,.box .pixel:nth-of-type(1196),.box .pixel:nth-of-type(1197),.box .pixel:nth-of-type(1198)
+  ,.box .pixel:nth-of-type(1265),.box .pixel:nth-of-type(1266),.box .pixel:nth-of-type(1267),.box .pixel:nth-of-type(1268),.box .pixel:nth-of-type(1269)
+  ,.box .pixel:nth-of-type(1335),.box .pixel:nth-of-type(1336),.box .pixel:nth-of-type(1337),.box .pixel:nth-of-type(1338),.box .pixel:nth-of-type(1339),.box .pixel:nth-of-type(1340)
+  ,.box .pixel:nth-of-type(1404),.box .pixel:nth-of-type(1405),.box .pixel:nth-of-type(1406),.box .pixel:nth-of-type(1407),.box .pixel:nth-of-type(1408),.box .pixel:nth-of-type(1409)
+  ,.box .pixel:nth-of-type(1475),.box .pixel:nth-of-type(1477),.box .pixel:nth-of-type(1769),.box .pixel:nth-of-type(1777),.box .pixel:nth-of-type(1778),.box .pixel:nth-of-type(1838),.box .pixel:nth-of-type(1839),.box .pixel:nth-of-type(1840)
+  ,.box .pixel:nth-of-type(1844),.box .pixel:nth-of-type(1845),.box .pixel:nth-of-type(1846),.box .pixel:nth-of-type(1847),.box .pixel:nth-of-type(1848),.box .pixel:nth-of-type(1849),.box .pixel:nth-of-type(1850)
+  ,.box .pixel:nth-of-type(1907),.box .pixel:nth-of-type(1908),.box .pixel:nth-of-type(1909),.box .pixel:nth-of-type(1910),.box .pixel:nth-of-type(1911),.box .pixel:nth-of-type(1912),.box .pixel:nth-of-type(1913),.box .pixel:nth-of-type(1914),.box .pixel:nth-of-type(1915),.box .pixel:nth-of-type(1916),.box .pixel:nth-of-type(1917),.box .pixel:nth-of-type(1918),.box .pixel:nth-of-type(1919),.box .pixel:nth-of-type(1920),.box .pixel:nth-of-type(1921)
+  ,.box .pixel:nth-of-type(1972),.box .pixel:nth-of-type(1975),.box .pixel:nth-of-type(1976),.box .pixel:nth-of-type(1977),.box .pixel:nth-of-type(1978),.box .pixel:nth-of-type(1979),.box .pixel:nth-of-type(1980)
+  ,.box .pixel:nth-of-type(1981),.box .pixel:nth-of-type(1982),.box .pixel:nth-of-type(1983),.box .pixel:nth-of-type(1984),.box .pixel:nth-of-type(1985),.box .pixel:nth-of-type(1986),.box .pixel:nth-of-type(1987),.box .pixel:nth-of-type(1988),.box .pixel:nth-of-type(1989),.box .pixel:nth-of-type(1990),.box .pixel:nth-of-type(1991),.box .pixel:nth-of-type(1992)
+  ,.box .pixel:nth-of-type(2042),.box .pixel:nth-of-type(2043),.box .pixel:nth-of-type(2044),.box .pixel:nth-of-type(2045),.box .pixel:nth-of-type(2046),.box .pixel:nth-of-type(2047),.box .pixel:nth-of-type(2048),.box .pixel:nth-of-type(2049),.box .pixel:nth-of-type(2050),.box .pixel:nth-of-type(2051),.box .pixel:nth-of-type(2052),.box .pixel:nth-of-type(2053),.box .pixel:nth-of-type(2054),.box .pixel:nth-of-type(2055),.box .pixel:nth-of-type(2056),.box .pixel:nth-of-type(2057),.box .pixel:nth-of-type(2058),.box .pixel:nth-of-type(2059),.box .pixel:nth-of-type(2060),.box .pixel:nth-of-type(2061),.box .pixel:nth-of-type(2062),.box .pixel:nth-of-type(2063)
+  ,.box .pixel:nth-of-type(2112),.box .pixel:nth-of-type(2113),.box .pixel:nth-of-type(2114),.box .pixel:nth-of-type(2115) ,.box .pixel:nth-of-type(2116),.box .pixel:nth-of-type(2117),.box .pixel:nth-of-type(2118),.box .pixel:nth-of-type(2119),.box .pixel:nth-of-type(2120),.box .pixel:nth-of-type(2121),.box .pixel:nth-of-type(2122),.box .pixel:nth-of-type(2123),.box .pixel:nth-of-type(2124),.box .pixel:nth-of-type(2125),.box .pixel:nth-of-type(2126),.box .pixel:nth-of-type(2127),.box .pixel:nth-of-type(2128),.box .pixel:nth-of-type(2129),.box .pixel:nth-of-type(2130),.box .pixel:nth-of-type(2131),.box .pixel:nth-of-type(2132),.box .pixel:nth-of-type(2133)
+  ,.box .pixel:nth-of-type(2134),.box .pixel:nth-of-type(2181),.box .pixel:nth-of-type(2182),.box .pixel:nth-of-type(2183),.box .pixel:nth-of-type(2184),.box .pixel:nth-of-type(2185),.box .pixel:nth-of-type(2186),.box .pixel:nth-of-type(2187),.box .pixel:nth-of-type(2188),.box .pixel:nth-of-type(2189),.box .pixel:nth-of-type(2190),.box .pixel:nth-of-type(2191),.box .pixel:nth-of-type(2192),.box .pixel:nth-of-type(2193),.box .pixel:nth-of-type(2194),.box .pixel:nth-of-type(2195),.box .pixel:nth-of-type(2196),.box .pixel:nth-of-type(2197),.box .pixel:nth-of-type(2198),.box .pixel:nth-of-type(2199),.box .pixel:nth-of-type(2200),.box .pixel:nth-of-type(2201),.box .pixel:nth-of-type(2202),.box .pixel:nth-of-type(2203),.box .pixel:nth-of-type(2204)
+  ,.box .pixel:nth-of-type(2251),.box .pixel:nth-of-type(2252),.box .pixel:nth-of-type(2253),.box .pixel:nth-of-type(2254),.box .pixel:nth-of-type(2255),.box .pixel:nth-of-type(2256)  ,.box .pixel:nth-of-type(2257),.box .pixel:nth-of-type(2258),.box .pixel:nth-of-type(2259),.box .pixel:nth-of-type(2260),.box .pixel:nth-of-type(2261),.box .pixel:nth-of-type(2262),.box .pixel:nth-of-type(2263),.box .pixel:nth-of-type(2264),.box .pixel:nth-of-type(2265),.box .pixel:nth-of-type(2266),.box .pixel:nth-of-type(2267),.box .pixel:nth-of-type(2268),.box .pixel:nth-of-type(2269),.box .pixel:nth-of-type(2270),.box .pixel:nth-of-type(2271),.box .pixel:nth-of-type(2272),.box .pixel:nth-of-type(2273),.box .pixel:nth-of-type(2274)
+  ,.box .pixel:nth-of-type(2321),.box .pixel:nth-of-type(2322),.box .pixel:nth-of-type(2323),.box .pixel:nth-of-type(2324),.box .pixel:nth-of-type(2325),.box .pixel:nth-of-type(2326),.box .pixel:nth-of-type(2327),.box .pixel:nth-of-type(2328),.box .pixel:nth-of-type(2329),.box .pixel:nth-of-type(2330),.box .pixel:nth-of-type(2331),.box .pixel:nth-of-type(2332),.box .pixel:nth-of-type(2333),.box .pixel:nth-of-type(2334),.box .pixel:nth-of-type(2335),.box .pixel:nth-of-type(2336),.box .pixel:nth-of-type(2337),.box .pixel:nth-of-type(2338),.box .pixel:nth-of-type(2339)
+  ,.box .pixel:nth-of-type(2340),.box .pixel:nth-of-type(2341),.box .pixel:nth-of-type(2342),.box .pixel:nth-of-type(2343),.box .pixel:nth-of-type(2344)
+  ,.box .pixel:nth-of-type(2392) ,.box .pixel:nth-of-type(2393) ,.box .pixel:nth-of-type(2394) ,.box .pixel:nth-of-type(2395)  ,.box .pixel:nth-of-type(2392)  ,.box .pixel:nth-of-type(2393)  ,.box .pixel:nth-of-type(2394)  ,.box .pixel:nth-of-type(2395)  ,.box .pixel:nth-of-type(2396)  ,.box .pixel:nth-of-type(2397)  ,.box .pixel:nth-of-type(2398)  ,.box .pixel:nth-of-type(2399)  ,.box .pixel:nth-of-type(2400)  ,.box .pixel:nth-of-type(2401)  ,.box .pixel:nth-of-type(2402)  ,.box .pixel:nth-of-type(2403)  ,.box .pixel:nth-of-type(2404)  ,.box .pixel:nth-of-type(2405)  ,.box .pixel:nth-of-type(2406)
+  ,.box .pixel:nth-of-type(2409),.box .pixel:nth-of-type(2410),.box .pixel:nth-of-type(2411),.box .pixel:nth-of-type(2412),.box .pixel:nth-of-type(2413),.box .pixel:nth-of-type(2414)
+  ,.box .pixel:nth-of-type(2464)  ,.box .pixel:nth-of-type(2466),.box .pixel:nth-of-type(2467),.box .pixel:nth-of-type(2468),.box .pixel:nth-of-type(2469),.box .pixel:nth-of-type(2470),.box .pixel:nth-of-type(2471),.box .pixel:nth-of-type(2472),.box .pixel:nth-of-type(2473),.box .pixel:nth-of-type(2474),.box .pixel:nth-of-type(2481)
+  ,.box .pixel:nth-of-type(2482)  ,.box .pixel:nth-of-type(2483)  ,.box .pixel:nth-of-type(2484)  ,.box .pixel:nth-of-type(2536),.box .pixel:nth-of-type(2537),.box .pixel:nth-of-type(2538),.box .pixel:nth-of-type(2539),.box .pixel:nth-of-type(2540),.box .pixel:nth-of-type(2480),.box .pixel:nth-of-type(2551),.box .pixel:nth-of-type(2552),.box .pixel:nth-of-type(2553)
+,.box .pixel:nth-of-type(2606),.box .pixel:nth-of-type(2607),.box .pixel:nth-of-type(2608),.box .pixel:nth-of-type(2609),.box .pixel:nth-of-type(2610)
+
+,.box .pixel:nth-of-type(2677)
+,.box .pixel:nth-of-type(2678)
+,.box .pixel:nth-of-type(2679)
+,.box .pixel:nth-of-type(2747)
+,.box .pixel:nth-of-type(2748)
+,.box .pixel:nth-of-type(2749)
+,.box .pixel:nth-of-type(2817)
+,.box .pixel:nth-of-type(2818)
+,.box .pixel:nth-of-type(2819)
+,.box .pixel:nth-of-type(2888) ,.box .pixel:nth-of-type(2889),.box .pixel:nth-of-type(2958)
+,.box .pixel:nth-of-type(2959)
+,.box .pixel:nth-of-type(2960)
+,.box .pixel:nth-of-type(3029)
+,.box .pixel:nth-of-type(3030)
+,.box .pixel:nth-of-type(3099)
+,.box .pixel:nth-of-type(3100)
+,.box .pixel:nth-of-type(3169)
+
+  {
+    background-color:     rgb(250,239,210);
+  }
+
+
+  /*negro*/
+  .box .pixel:nth-of-type(646),.box .pixel:nth-of-type(647),.box .pixel:nth-of-type(648),.box .pixel:nth-of-type(718),.box .pixel:nth-of-type(788)
+  ,.box .pixel:nth-of-type(1062),.box .pixel:nth-of-type(1063),.box .pixel:nth-of-type(1067),.box .pixel:nth-of-type(1055)
+  ,.box .pixel:nth-of-type(1132),.box .pixel:nth-of-type(1133),.box .pixel:nth-of-type(1137)
+  ,.box .pixel:nth-of-type(1130) ,.box .pixel:nth-of-type(1199),.box .pixel:nth-of-type(1200),.box .pixel:nth-of-type(1203)
+  ,.box .pixel:nth-of-type(1207),.box .pixel:nth-of-type(1271),.box .pixel:nth-of-type(1272),.box .pixel:nth-of-type(1278),.box .pixel:nth-of-type(1348),.box .pixel:nth-of-type(1418)
+  ,.box .pixel:nth-of-type(1481),.box .pixel:nth-of-type(1482),.box .pixel:nth-of-type(1488)
+  ,.box .pixel:nth-of-type(1549),.box .pixel:nth-of-type(1550),.box .pixel:nth-of-type(1559)
+  ,.box .pixel:nth-of-type(1616),.box .pixel:nth-of-type(1617),.box .pixel:nth-of-type(1618),.box .pixel:nth-of-type(1629),.box .pixel:nth-of-type(1700),.box .pixel:nth-of-type(1770)
+  ,.box .pixel:nth-of-type(1841),.box .pixel:nth-of-type(1842),.box .pixel:nth-of-type(1852),.box .pixel:nth-of-type(1923),.box .pixel:nth-of-type(1994),.box .pixel:nth-of-type(2064)
+  ,.box .pixel:nth-of-type(2135),.box .pixel:nth-of-type(2205),.box .pixel:nth-of-type(2250),.box .pixel:nth-of-type(2320),.box .pixel:nth-of-type(2390),.box .pixel:nth-of-type(2460),.box .pixel:nth-of-type(2530),.box .pixel:nth-of-type(2600)
+  ,.box .pixel:nth-of-type(2547),.box .pixel:nth-of-type(2548),.box .pixel:nth-of-type(2619),.box .pixel:nth-of-type(2689)  ,.box .pixel:nth-of-type(2671),.box .pixel:nth-of-type(2673),.box .pixel:nth-of-type(2741),.box .pixel:nth-of-type(2811),.box .pixel:nth-of-type(2744)  ,.box .pixel:nth-of-type(2760),.box .pixel:nth-of-type(2815),.box .pixel:nth-of-type(2830)  ,.box .pixel:nth-of-type(2882)  ,.box .pixel:nth-of-type(2886)  ,.box .pixel:nth-of-type(2901),.box .pixel:nth-of-type(2907)     ,.box .pixel:nth-of-type(2952),.box .pixel:nth-of-type(2972),.box .pixel:nth-of-type(2978)
+   ,.box .pixel:nth-of-type(3022),.box .pixel:nth-of-type(3027)   ,.box .pixel:nth-of-type(2957),.box .pixel:nth-of-type(3032),.box .pixel:nth-of-type(3043),.box .pixel:nth-of-type(3048)   ,.box .pixel:nth-of-type(3045)
+,.box .pixel:nth-of-type(3093),.box .pixel:nth-of-type(3098),.box .pixel:nth-of-type(3103),.box .pixel:nth-of-type(3114),.box .pixel:nth-of-type(3118)
+,.box .pixel:nth-of-type(3163),.box .pixel:nth-of-type(3166),.box .pixel:nth-of-type(3168),.box .pixel:nth-of-type(3173),.box .pixel:nth-of-type(3184),.box .pixel:nth-of-type(3187)
+,.box .pixel:nth-of-type(3233),.box .pixel:nth-of-type(3303),.box .pixel:nth-of-type(3373),.box .pixel:nth-of-type(3443),.box .pixel:nth-of-type(3513),.box .pixel:nth-of-type(3793),.box .pixel:nth-of-type(3792),.box .pixel:nth-of-type(3794),.box .pixel:nth-of-type(3795)
+,.box .pixel:nth-of-type(3726),.box .pixel:nth-of-type(3656),.box .pixel:nth-of-type(3516),.box .pixel:nth-of-type(3446),.box .pixel:nth-of-type(3376),.box .pixel:nth-of-type(3306),.box .pixel:nth-of-type(3236),.box .pixel:nth-of-type(3238),.box .pixel:nth-of-type(3309)
+,.box .pixel:nth-of-type(3379),.box .pixel:nth-of-type(3309),.box .pixel:nth-of-type(3449),.box .pixel:nth-of-type(3519),.box .pixel:nth-of-type(3589),.box .pixel:nth-of-type(3659)
+,.box .pixel:nth-of-type(3802),.box .pixel:nth-of-type(3872),.box .pixel:nth-of-type(3941),.box .pixel:nth-of-type(3940),.box .pixel:nth-of-type(3939),.box .pixel:nth-of-type(3938)
+,.box .pixel:nth-of-type(3732),.box .pixel:nth-of-type(3662),.box .pixel:nth-of-type(3592),.box .pixel:nth-of-type(3522),.box .pixel:nth-of-type(3452),.box .pixel:nth-of-type(3382),.box .pixel:nth-of-type(3312),.box .pixel:nth-of-type(3243)
+,.box .pixel:nth-of-type(3529),.box .pixel:nth-of-type(3459),.box .pixel:nth-of-type(3595),.box .pixel:nth-of-type(3596),.box .pixel:nth-of-type(3597),.box .pixel:nth-of-type(3598)
+
+,.box .pixel:nth-of-type(3254),.box .pixel:nth-of-type(3324),.box .pixel:nth-of-type(3394),.box .pixel:nth-of-type(3463),.box .pixel:nth-of-type(3533)
+,.box .pixel:nth-of-type(3815),.box .pixel:nth-of-type(3814),.box .pixel:nth-of-type(3813),.box .pixel:nth-of-type(3812)
+,.box .pixel:nth-of-type(3746),.box .pixel:nth-of-type(3676)
+,.box .pixel:nth-of-type(3607),.box .pixel:nth-of-type(3537),.box .pixel:nth-of-type(3467),.box .pixel:nth-of-type(3397),.box .pixel:nth-of-type(3327),.box .pixel:nth-of-type(3257)
+
+{
+    background-color: black;
+  }
+
+   /*Piel oscura*/
+  .box .pixel:nth-of-type(775),.box .pixel:nth-of-type(845),.box .pixel:nth-of-type(854),.box .pixel:nth-of-type(924)  ,.box .pixel:nth-of-type(991),.box .pixel:nth-of-type(992),.box .pixel:nth-of-type(993),.box .pixel:nth-of-type(994),.box .pixel:nth-of-type(995)  ,.box .pixel:nth-of-type(1060),.box .pixel:nth-of-type(1064),.box .pixel:nth-of-type(1065),.box .pixel:nth-of-type(1066)  ,.box .pixel:nth-of-type(1134),.box .pixel:nth-of-type(1135),.box .pixel:nth-of-type(1136)  ,.box .pixel:nth-of-type(1195),.box .pixel:nth-of-type(1204),.box .pixel:nth-of-type(1205),.box .pixel:nth-of-type(1206)
+  ,.box .pixel:nth-of-type(1264),.box .pixel:nth-of-type(1273),.box .pixel:nth-of-type(1274),.box .pixel:nth-of-type(1275),.box .pixel:nth-of-type(1276),.box .pixel:nth-of-type(1277)  ,.box .pixel:nth-of-type(1333),.box .pixel:nth-of-type(1334),.box .pixel:nth-of-type(1341),.box .pixel:nth-of-type(1342),.box .pixel:nth-of-type(1343),.box .pixel:nth-of-type(1344),.box .pixel:nth-of-type(1345),.box .pixel:nth-of-type(1346),.box .pixel:nth-of-type(1347)
+  ,.box .pixel:nth-of-type(1410),.box .pixel:nth-of-type(1411),.box .pixel:nth-of-type(1412),.box .pixel:nth-of-type(1413),.box .pixel:nth-of-type(1415),.box .pixel:nth-of-type(1416),.box .pixel:nth-of-type(1417)
+  ,.box .pixel:nth-of-type(1474),.box .pixel:nth-of-type(1478),.box .pixel:nth-of-type(1479),.box .pixel:nth-of-type(1480),.box .pixel:nth-of-type(1484),.box .pixel:nth-of-type(1485),.box .pixel:nth-of-type(1486),.box .pixel:nth-of-type(1487)
+  ,.box .pixel:nth-of-type(1545),.box .pixel:nth-of-type(1546),.box .pixel:nth-of-type(1547),.box .pixel:nth-of-type(1548)  ,.box .pixel:nth-of-type(1552),.box .pixel:nth-of-type(1553),.box .pixel:nth-of-type(1554),.box .pixel:nth-of-type(1555),.box .pixel:nth-of-type(1556),.box .pixel:nth-of-type(1557),.box .pixel:nth-of-type(1558)
+  ,.box .pixel:nth-of-type(1622),.box .pixel:nth-of-type(1623),.box .pixel:nth-of-type(1624),.box .pixel:nth-of-type(1625),.box .pixel:nth-of-type(1626),.box .pixel:nth-of-type(1628),.box .pixel:nth-of-type(1627)
+  ,.box .pixel:nth-of-type(1692),.box .pixel:nth-of-type(1693),.box .pixel:nth-of-type(1694),.box .pixel:nth-of-type(1695),.box .pixel:nth-of-type(1696),.box .pixel:nth-of-type(1697),.box .pixel:nth-of-type(1698),.box .pixel:nth-of-type(1699)
+  ,.box .pixel:nth-of-type(1762),.box .pixel:nth-of-type(1763),.box .pixel:nth-of-type(1764),.box .pixel:nth-of-type(1765),.box .pixel:nth-of-type(1766),.box .pixel:nth-of-type(1767),.box .pixel:nth-of-type(1768)
+  ,.box .pixel:nth-of-type(1776),.box .pixel:nth-of-type(1779),.box .pixel:nth-of-type(1832),.box .pixel:nth-of-type(1833),.box .pixel:nth-of-type(1834),.box .pixel:nth-of-type(1835),.box .pixel:nth-of-type(1836),.box .pixel:nth-of-type(1837)
+  ,.box .pixel:nth-of-type(1851),.box .pixel:nth-of-type(1902),.box .pixel:nth-of-type(1903),.box .pixel:nth-of-type(1904),.box .pixel:nth-of-type(1905),.box .pixel:nth-of-type(1906)  ,.box .pixel:nth-of-type(1922),.box .pixel:nth-of-type(1973),.box .pixel:nth-of-type(1974),.box .pixel:nth-of-type(1993),.box .pixel:nth-of-type(2275)  ,.box .pixel:nth-of-type(2479)  ,.box .pixel:nth-of-type(2339),.box .pixel:nth-of-type(2345)  ,.box .pixel:nth-of-type(2391),.box .pixel:nth-of-type(2407),.box .pixel:nth-of-type(2408),.box .pixel:nth-of-type(2409)
+  ,.box .pixel:nth-of-type(2461),.box .pixel:nth-of-type(2462),.box .pixel:nth-of-type(2463) ,.box .pixel:nth-of-type(2475),.box .pixel:nth-of-type(2476),.box .pixel:nth-of-type(2477) ,.box .pixel:nth-of-type(2485),.box .pixel:nth-of-type(2531),.box .pixel:nth-of-type(2533),.box .pixel:nth-of-type(2534),.box .pixel:nth-of-type(2541) ,.box .pixel:nth-of-type(2544),.box .pixel:nth-of-type(2545) ,.box .pixel:nth-of-type(2549),.box .pixel:nth-of-type(2550),.box .pixel:nth-of-type(2554),.box .pixel:nth-of-type(2601),.box .pixel:nth-of-type(2603),.box .pixel:nth-of-type(2604)
+ ,.box .pixel:nth-of-type(2620),.box .pixel:nth-of-type(2621),.box .pixel:nth-of-type(2622),.box .pixel:nth-of-type(2623),.box .pixel:nth-of-type(2624),.box .pixel:nth-of-type(2625),.box .pixel:nth-of-type(2626),.box .pixel:nth-of-type(2672),.box .pixel:nth-of-type(2674),.box .pixel:nth-of-type(2676)
+ ,.box .pixel:nth-of-type(2691),.box .pixel:nth-of-type(2692),.box .pixel:nth-of-type(2693),.box .pixel:nth-of-type(2694),.box .pixel:nth-of-type(2695),.box .pixel:nth-of-type(2696),.box .pixel:nth-of-type(2746)
+ ,.box .pixel:nth-of-type(2761),.box .pixel:nth-of-type(2762),.box .pixel:nth-of-type(2763),.box .pixel:nth-of-type(2764),.box .pixel:nth-of-type(2765) ,.box .pixel:nth-of-type(2831) ,.box .pixel:nth-of-type(2832) ,.box .pixel:nth-of-type(2833) ,.box .pixel:nth-of-type(2834) ,.box .pixel:nth-of-type(2835) ,.box .pixel:nth-of-type(2836) ,.box .pixel:nth-of-type(2887) ,.box .pixel:nth-of-type(2890) ,.box .pixel:nth-of-type(2902),.box .pixel:nth-of-type(2903)
+,.box .pixel:nth-of-type(2904),.box .pixel:nth-of-type(2905),.box .pixel:nth-of-type(2906),.box .pixel:nth-of-type(2961),.box .pixel:nth-of-type(2973),.box .pixel:nth-of-type(2974),.box .pixel:nth-of-type(2975),.box .pixel:nth-of-type(2976),.box .pixel:nth-of-type(3028),.box .pixel:nth-of-type(3031),.box .pixel:nth-of-type(2977)
+,.box .pixel:nth-of-type(3045),.box .pixel:nth-of-type(3046),.box .pixel:nth-of-type(3047),.box .pixel:nth-of-type(3101),.box .pixel:nth-of-type(3102),.box .pixel:nth-of-type(3115),.box .pixel:nth-of-type(3116),.box .pixel:nth-of-type(3117),.box .pixel:nth-of-type(3171),.box .pixel:nth-of-type(3172),.box .pixel:nth-of-type(3185),.box .pixel:nth-of-type(3186)
+
+,.box .pixel:nth-of-type(3239),.box .pixel:nth-of-type(3241),.box .pixel:nth-of-type(3242),.box .pixel:nth-of-type(3310),.box .pixel:nth-of-type(3311),.box .pixel:nth-of-type(3380),.box .pixel:nth-of-type(3381)
+,.box .pixel:nth-of-type(3450),.box .pixel:nth-of-type(3451),.box .pixel:nth-of-type(3520),.box .pixel:nth-of-type(3521),.box .pixel:nth-of-type(3590),.box .pixel:nth-of-type(3591),.box .pixel:nth-of-type(3660),.box .pixel:nth-of-type(3661),.box .pixel:nth-of-type(3731)
+
+,.box .pixel:nth-of-type(3115),.box .pixel:nth-of-type(3116)
+,.box .pixel:nth-of-type(3185),.box .pixel:nth-of-type(3186)
+,.box .pixel:nth-of-type(3255),.box .pixel:nth-of-type(3256)
+,.box .pixel:nth-of-type(3325),.box .pixel:nth-of-type(3326)
+,.box .pixel:nth-of-type(3395),.box .pixel:nth-of-type(3396)
+,.box .pixel:nth-of-type(3465),.box .pixel:nth-of-type(3466),.box .pixel:nth-of-type(3464)
+,.box .pixel:nth-of-type(3535),.box .pixel:nth-of-type(3536),.box .pixel:nth-of-type(3534)
+,.box .pixel:nth-of-type(3605),.box .pixel:nth-of-type(3606)
+  {
+    background-color:rgb(232,206,145);
+  }
+
+  .box .pixel:nth-of-type(1131){
+    background-color: white;
+  }
+
+  /*piel sombra*/
+
+ 
+  .box .pixel:nth-of-type(2465),.box .pixel:nth-of-type(2535),.box .pixel:nth-of-type(2478),.box .pixel:nth-of-type(2477),.box .pixel:nth-of-type(2546)
+  ,.box .pixel:nth-of-type(2690),.box .pixel:nth-of-type(2742),.box .pixel:nth-of-type(2743),.box .pixel:nth-of-type(2812),.box .pixel:nth-of-type(2813),.box .pixel:nth-of-type(2814)
+  ,.box .pixel:nth-of-type(2883) ,.box .pixel:nth-of-type(2884) ,.box .pixel:nth-of-type(2885)
+  ,.box .pixel:nth-of-type(2953),.box .pixel:nth-of-type(2954),.box .pixel:nth-of-type(2955),.box .pixel:nth-of-type(2956),.box .pixel:nth-of-type(2967),.box .pixel:nth-of-type(2968),.box .pixel:nth-of-type(3023),.box .pixel:nth-of-type(3024),.box .pixel:nth-of-type(3025),.box .pixel:nth-of-type(3026),.box .pixel:nth-of-type(3038),.box .pixel:nth-of-type(3039),.box .pixel:nth-of-type(3094),.box .pixel:nth-of-type(3095),.box .pixel:nth-of-type(3096),.box .pixel:nth-of-type(3108),.box .pixel:nth-of-type(3109)
+   ,.box .pixel:nth-of-type(3164),.box .pixel:nth-of-type(3165),.box .pixel:nth-of-type(3170),.box .pixel:nth-of-type(3240)  ,.box .pixel:nth-of-type(3178),.box .pixel:nth-of-type(3179)
+
+   ,.box .pixel:nth-of-type(3234),.box .pixel:nth-of-type(3235)   ,.box .pixel:nth-of-type(3304),.box .pixel:nth-of-type(3305)   ,.box .pixel:nth-of-type(3374),.box .pixel:nth-of-type(3375)   ,.box .pixel:nth-of-type(3164),.box .pixel:nth-of-type(3165)   ,.box .pixel:nth-of-type(3444),.box .pixel:nth-of-type(3445)   ,.box .pixel:nth-of-type(3514),.box .pixel:nth-of-type(3515)   ,.box .pixel:nth-of-type(3585)
+   
+   ,.box .pixel:nth-of-type(3234),.box .pixel:nth-of-type(3235)   ,.box .pixel:nth-of-type(3248),.box .pixel:nth-of-type(3249)   ,.box .pixel:nth-of-type(3318),.box .pixel:nth-of-type(3319)   ,.box .pixel:nth-of-type(3387),.box .pixel:nth-of-type(3388),.box .pixel:nth-of-type(3389)
+   ,.box .pixel:nth-of-type(3458)
+ 
+
+  {
+    background-color: #BD996C;
+  }
+
+  .box .pixel:nth-of-type(3583),.box .pixel:nth-of-type(3584),.box .pixel:nth-of-type(3652),.box .pixel:nth-of-type(3654),.box .pixel:nth-of-type(3655),.box .pixel:nth-of-type(3722),.box .pixel:nth-of-type(3724),.box .pixel:nth-of-type(3725)
+  ,.box .pixel:nth-of-type(3730) ,.box .pixel:nth-of-type(3800),.box .pixel:nth-of-type(3798),.box .pixel:nth-of-type(3801)
+  ,.box .pixel:nth-of-type(3868),.box .pixel:nth-of-type(3870),.box .pixel:nth-of-type(3871),.box .pixel:nth-of-type(3455),.box .pixel:nth-of-type(3525)
+  ,.box .pixel:nth-of-type(3457),.box .pixel:nth-of-type(3527),.box .pixel:nth-of-type(3528)
+  ,.box .pixel:nth-of-type(3672),.box .pixel:nth-of-type(3604),.box .pixel:nth-of-type(3742),.box .pixel:nth-of-type(3744),.box .pixel:nth-of-type(3675),.box .pixel:nth-of-type(3745)
+  {
+    background-color: rgb(65,70,130);
+  }
+  
+  .box .pixel:nth-of-type(3653),.box .pixel:nth-of-type(3799),.box .pixel:nth-of-type(3456),.box .pixel:nth-of-type(3526)
+  ,.box .pixel:nth-of-type(3673) ,.box .pixel:nth-of-type(3743)
+  {
+    background-color:rgb(199,195,211);
+  }
+
+  .box .pixel:nth-of-type(3723),.box .pixel:nth-of-type(3869),.box .pixel:nth-of-type(3674),.box .pixel:nth-of-type(3743)
+  {
+    background-color:rgb(115,119,158);
+  }
